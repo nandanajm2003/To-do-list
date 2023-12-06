@@ -1,5 +1,5 @@
 # To-do-list
-Web based to-do-list using html
+Web based to-do-list using html.
 Allows users to manage their tasks and stay organized.
 
 # Key Features
