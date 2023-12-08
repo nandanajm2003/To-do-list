@@ -1,85 +1,85 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color:#66545e ;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   background-color:#66545e ;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
 }
 
 #todo-container {
-    max-width: 400px;
-    width: 100%;
-    background-color: #ffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    
+   max-width: 400px;
+   width: 100%;
+   background-color: #ffff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   
 }
 
 #todo-header {
-    background-color:#a39193;
-    color: #000000;
-    padding: 15px;
-    text-align: center;
-    border: 1px solid #000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-color:#a39193;
+   color: #000000;
+   padding: 15px;
+   text-align: center;
+   border: 1px solid #000000;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #todo-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+   list-style: none;
+   padding: 0;
+   margin: 0;
 }
 
 .todo-item {
-    padding: 15px;
-    border-bottom: 1px solid #000000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #000000;
+   padding: 15px;
+   border-bottom: 1px solid #000000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid #000000;
 }
 
 .todo-item input[type="checkbox"] {
-    margin-right: 10px;
+   margin-right: 10px;
 }
 
 .delete-btn {
-    background-color:#eea990;
-    color: #ffff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 1px solid #000000;
+   background-color:#eea990;
+   color: #ffff;
+   border: none;
+   padding: 8px 12px;
+   border-radius: 4px;
+   cursor: pointer;
+   border: 1px solid #000000;
 }
 
 #add-todo {
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #000000;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid #000000;
 
 }
 
 #add-todo input[type="text"] {
-    flex: 1;
-    padding: 8px;
-    border-radius: 4px;
+   flex: 1;
+   padding: 8px;
+   border-radius: 4px;
 }
 
 #add-todo button {
-    background-color: 	#aa6f73;
-    color: #ffff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 1px solid #000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-color: 	#aa6f73;
+   color: #ffff;
+   border: none;
+   padding: 8px 12px;
+   border-radius: 4px;
+   cursor: pointer;
+   border: 1px solid #000000;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
