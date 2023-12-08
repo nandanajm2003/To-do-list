@@ -15,6 +15,11 @@
         <ul id="todo-list"></ul>
         <div id="add-todo">
             <input type="text" id="new-task" placeholder="Add a new task">
+            <select id="priority" class="priority-dropdown">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
             <button onclick="addTask()">Add</button>
         </div>
     </div>
@@ -22,11 +27,13 @@
     <script>
         function addTask() {
             var taskText = document.getElementById('new-task').value;
+            var priorityValue = document.getElementById('priority').value;
             if (taskText.trim() !== '') {
                 var todoList = document.getElementById('todo-list');
                 var newTask = document.createElement('li');
                 newTask.className = 'todo-item';
                 newTask.innerHTML = '<input type="checkbox" onclick="toggleDone(this)">' + taskText +
+                                    '<span class="priority">' + priorityValue + '</span>' +
                                     '<button class="delete-btn" onclick="deleteTask(this)">Delete</button>';
                 todoList.appendChild(newTask);
                 document.getElementById('new-task').value = '';
